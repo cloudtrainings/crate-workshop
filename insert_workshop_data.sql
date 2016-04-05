@@ -1,0 +1,23 @@
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 13, 33, 1.9, '2016-01-01T13:41:51.113Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 14, 34, 2.8, '2016-01-02T14:42:52.114Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 15, 35, 3.7, '2016-01-03T15:43:53.115Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 16, 36, 4.6, '2016-01-04T16:44:54.116Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 17, 37, 5.5, '2016-01-05T17:45:55.117Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 18, 38, 6.4, '2016-01-06T18:46:56.118Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 19, 39, 7.3, '2016-01-07T19:47:57.119Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 20, 40, 8.2, '2016-01-08T20:48:58.120Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 21, 42, 9.1, '2016-01-09T21:49:59.121Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('Los Angeles', 22, 42, 10.0, '2016-01-10T22:50:10.122Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 13, 33, 1.9, '2016-01-01T13:41:51.113Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 14, 34, 2.8, '2016-01-02T14:42:52.114Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 15, 35, 3.7, '2016-01-03T15:43:53.115Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 16, 36, 4.6, '2016-01-04T16:44:54.116Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 17, 37, 5.5, '2016-01-05T17:45:55.117Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 18, 38, 6.4, '2016-01-06T18:46:56.118Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 19, 39, 7.3, '2016-01-07T19:47:57.119Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 20, 40, 8.2, '2016-01-08T20:48:58.120Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 21, 42, 9.1, '2016-01-09T21:49:59.121Z');
+INSERT INTO workshop_weather (city, temp_low, temp_high, precipitation, datetime) VALUES ('San Francisco', 22, 42, 10.0, '2016-01-10T22:50:10.122Z');
+
+INSERT INTO workshop_cities (name,country,location) VALUES ('Los Angeles','US','POINT (-118.237367 34.060009)');
+INSERT INTO workshop_cities (name,country,location) VALUES ('San Francisco','US','POINT (-122.409107 37.775049)');

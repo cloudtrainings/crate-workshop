@@ -1,0 +1,3 @@
+[console_scripts]
+crash = crate.crash.command:main
+

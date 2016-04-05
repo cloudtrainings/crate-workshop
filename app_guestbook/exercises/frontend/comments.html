@@ -1,0 +1,6 @@
+<div ng-repeat="comment in comments[post.id] track by comment.id">
+	<p class="lead">
+		<b> {{ comment.text }}</b> wrote on <em>{{ comment.created |
+			date:'MMM d, y h:mm a' }}</em>
+	</p>
+</div>
