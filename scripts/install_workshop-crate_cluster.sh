@@ -59,5 +59,13 @@ echo " gateway.recover_after_nodes: 3" >> /etc/crate/crate.yml
 echo " gateway.recover_after_time: 5m" >> /etc/crate/crate.yml
 echo " gateway.expected_nodes: 3" >> /etc/crate/crate.yml
 
-echo " discovery.ec2.groups: crateworshop-Einstein" >> /etc/crate/crate.yml
+echo " discovery.ec2.groups: ##group##" >> /etc/crate/crate.yml
+echo "Restart Crate Cluster...."
 sudo service crate restart
+
+echo "Install Maven...."
+sudo apt-get install maven -y
+	
+echo "Configure Crash"
+sudo ln -sf /usr/share/crate/bin/crash /usr/bin/
+sudo ln -sf /usr/share/crate/bin/crash_standalone /usr/bin/
